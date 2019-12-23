@@ -7,7 +7,7 @@ module.exports = {
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription: 'This is where they post things!',
-  author: 'Author', // Author for schemaORGJSONLD
+  author: 'Rowin van Amsterdam', // Author for schemaORGJSONLD
   organization: 'egghead.io LLC',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
@@ -21,8 +21,8 @@ module.exports = {
   backgroundColor: '#2b2e3c',
 
   // Social component
-  twitter: 'https://twitter.com/eggheadio/',
-  twitterHandle: '@eggheadio',
-  github: 'https://github.com/eggheadio/',
+  twitter: '',
+  twitterHandle: '',
+  github: 'https://github.com/rowin206/',
   linkedin: '',
 }

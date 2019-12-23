@@ -16,8 +16,8 @@ const Hero = () => {
         color: ${theme.colors.white};
         width: 100%;
         background: ${theme.colors.primary};
-        background-image: url("../../static/images/backgrounds/jungle.jpg");
-        padding: 20px 0 30px 0;
+        background-image: url('https://images.unsplash.com/photo-1536999526918-49b5b164e926?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80');
+        padding: 30px 0 30px 0;
         display: flex;
       `}
     >
@@ -27,7 +27,6 @@ const Hero = () => {
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          border: 1px solid red;
         `}
       >
         <h1
@@ -37,7 +36,6 @@ const Hero = () => {
             z-index: 5;
             line-height: 1.5;
             margin: 0;
-            border: 1px solid blue;
             max-width: ${rhythm(15)};
           `}
         >
@@ -104,7 +102,7 @@ export default function Index({ data: { site, allMdx } }) {
           </div>
         ))}
         <Link to="/blog" aria-label="Visit blog page">
-          View all articles
+          <button>View all articles</button>
         </Link>
         <hr />
       </Container>
