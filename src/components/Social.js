@@ -68,6 +68,7 @@ export const GitHub = ({ url = `${config.github}` }) => {
   return (
     <Link
       to={url}
+      target="_blank"
       css={css`
         margin-left: 10px;
         color: ${theme.colors.text};
