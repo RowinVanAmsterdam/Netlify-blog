@@ -6,10 +6,10 @@ const themes = {
   default: {
     themeName: 'default',
     colors: {
-      primary: colors.blue,
+      primary: colors.green,
       text: colors.black,
       bodyBg: colors.gray,
-      headerBg: colors.blue,
+      headerBg: colors.black,
       link: colors.blue,
       ...colors,
     },

@@ -16,6 +16,7 @@ const Hero = () => {
         color: ${theme.colors.white};
         width: 100%;
         background: ${theme.colors.primary};
+        background-image: url("../../static/images/backgrounds/jungle.jpg");
         padding: 20px 0 30px 0;
         display: flex;
       `}
@@ -24,6 +25,9 @@ const Hero = () => {
         css={css`
           display: flex;
           flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid red;
         `}
       >
         <h1
@@ -33,6 +37,7 @@ const Hero = () => {
             z-index: 5;
             line-height: 1.5;
             margin: 0;
+            border: 1px solid blue;
             max-width: ${rhythm(15)};
           `}
         >
