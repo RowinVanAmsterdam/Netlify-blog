@@ -91,6 +91,7 @@ export default function Index({ data: { site, allMdx } }) {
                 {post.frontmatter.title}
               </Link>
             </h2>
+            <small>{post.frontmatter.date}</small>
             <Description>
               {post.excerpt}{' '}
               <Link
@@ -106,13 +107,13 @@ export default function Index({ data: { site, allMdx } }) {
         css={css`
         border-radius: 4px;
         background-color: ${theme.colors.primary};
-        border: none;
         color: ${theme.colors.white};
         padding: 5px 10px;
         cursor: pointer;
         border: 1px solid ${theme.colors.primary};
         transition: all 150ms;
        :hover {
+         color: ${theme.colors.white};
           background: ${lighten(0.05, theme.colors.primary)};
           border: 1px solid ${lighten(0.05, theme.colors.primary)};
       }

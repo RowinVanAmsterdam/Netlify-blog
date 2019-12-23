@@ -5,7 +5,6 @@ import { useTheme } from '../Theming'
 import { bpMaxSM } from '../../lib/breakpoints'
 import MobileMenu from './MobileMenu'
 import Links from './Links'
-
 import Container from '../Container'
 
 const Header = ({ siteTitle }) => {
@@ -53,10 +52,10 @@ const Header = ({ siteTitle }) => {
                 color: ${theme.colors.white};
                 margin-left: 16px;
                 margin-right: 16px;
+                
               }
               .active {
-                display: none;
-                visibility: hidden;
+                color: ${theme.colors.green};
               }
             `}
           >
