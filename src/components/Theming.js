@@ -10,7 +10,7 @@ const themes = {
       text: colors.black,
       bodyBg: colors.gray,
       headerBg: colors.black,
-      link: colors.blue,
+      link: colors.green,
       ...colors,
     },
   },

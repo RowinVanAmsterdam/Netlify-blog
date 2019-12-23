@@ -7,6 +7,7 @@ import Link from 'components/Link'
 import { useTheme } from 'components/Theming'
 import Container from 'components/Container'
 import { rhythm } from '../lib/typography'
+import { lighten } from 'polished'
 
 const Hero = () => {
   const theme = useTheme()
@@ -101,8 +102,22 @@ export default function Index({ data: { site, allMdx } }) {
             </Description>
           </div>
         ))}
-        <Link to="/blog" aria-label="Visit blog page">
-          <button>View all articles</button>
+        <Link to="/blog" aria-label="Visit blog page" 
+        css={css`
+        border-radius: 4px;
+        background-color: ${theme.colors.primary};
+        border: none;
+        color: ${theme.colors.white};
+        padding: 5px 10px;
+        cursor: pointer;
+        border: 1px solid ${theme.colors.primary};
+        transition: all 150ms;
+       :hover {
+          background: ${lighten(0.05, theme.colors.primary)};
+          border: 1px solid ${lighten(0.05, theme.colors.primary)};
+      }
+      `}>
+          View all articles
         </Link>
         <hr />
       </Container>
