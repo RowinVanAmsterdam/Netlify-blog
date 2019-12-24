@@ -21,9 +21,9 @@ export default function Post({
   const title = mdx.frontmatter.title
   const banner = mdx.frontmatter.banner
 
-  const disqusShortname = 'rowinva';
+  const disqusShortname = 'https-rowins-blog-netlify-com';
   const disqusConfig = {
-      url: `${config.siteUrl}`,
+      url: `${config.siteUrl}/${mdx.frontmatter.slug}`,
       identifier: mdx.frontmatter.slug,
       title: title,
   };
