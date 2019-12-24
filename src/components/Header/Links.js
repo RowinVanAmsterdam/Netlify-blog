@@ -10,9 +10,6 @@ export default () => {
       <Link to="/blog" activeClassName="active" aria-label="View blog page">
         Blog
       </Link>
-      <Link to="#" activeClassName="active" aria-label="View blog page">
-        Contact
-      </Link>
 
       <ThemeToggler
         css={{}}

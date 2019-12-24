@@ -12,6 +12,7 @@
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
     "core-js": "^3.3.3",
+    "disqus-react": "^1.0.7",
     "dotenv": "^8.2.0",
     "dotenv-parse-variables": "^0.2.3",
     "emotion": "^10.0.17",
