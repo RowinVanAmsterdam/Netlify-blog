@@ -21,12 +21,13 @@ export default function Post({
   const title = mdx.frontmatter.title
   const banner = mdx.frontmatter.banner
 
-  const disqusShortname = 'RowinVA';
+  const disqusShortname = 'rowinva';
   const disqusConfig = {
       url: `${config.siteUrl}/${mdx.frontmatter.slug}`,
       identifier: mdx.frontmatter.slug,
       title: title,
   };
+
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
