@@ -23,7 +23,7 @@ export default function Post({
 
   const disqusShortname = 'rowinva';
   const disqusConfig = {
-      url: `${config.siteUrl}/${mdx.frontmatter.slug}`,
+      url: `${config.siteUrl}`,
       identifier: mdx.frontmatter.slug,
       title: title,
   };
