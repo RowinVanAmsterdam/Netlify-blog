@@ -8,7 +8,7 @@ module.exports = {
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription: 'This is where they post things!',
   author: 'Rowin van Amsterdam', // Author for schemaORGJSONLD
-  organization: 'egghead.io LLC',
+  organization: 'Macaw',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '', // Twitter Username
